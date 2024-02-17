@@ -8,8 +8,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto de Loja Virtual PitLane Boutique</title>
-</head>
+     <!-- início da chamada do bootstrap - css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <!-- fim da chamada do bootstrap - css -->
+
+    </head>
 <body>
+     <!-- início do menu -->
+     <section id="menuprincipal" class="row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="info">
+            <div class="container">
+                <a class="navbar-brand" href="">
+                    <img src="imagens/identidade-da-marca/pitlane-logo.png" class="col-12 col-sm-4 col-md-4 col-lg-4" />
+                </a>
+                <button class="navbar-toggler m-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-lg-5">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Início</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="produtos/miniaturas/">Miniaturas</a></li>
+                                <li><a class="dropdown-item" href="produtos/camisas/">Camisas</a></li>
+                                <li><a class="dropdown-item" href="produtos/bonés/">Bonés</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="produtos/camisas/todas-as-linhas">Todas as Linhas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sobre
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="quem-somos.html">Quem Somos</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="nav-link" href="termos-de-uso.html">Termos de Uso</a></li>
+                            <li><a class="nav-link" href="politicas-de-privacidade.html">Politica de Privacidade</a></li>
+                            <li><a class="nav-link" href="trocas-e-devolucoes.html">Trocas e Devoluções</a></li>
+                            </ul>
+                        </li>
+                    
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fale Conosco
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="mailto:vendas@kadoshtshirts.com?subject=Vendas" target="_blank">E-Mail</a></li>
+                            <li><a class="dropdown-item" href="tel:+5585987654321" target="_blank">Ligação</a></li>
+                            <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=5585987654321&text=Ol%C3%A1,%20tudo%20bem?%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20produtos." target="_blank">Whatsapp</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://www.google.com.br/maps/dir//iwtraining+treinamentos+-+Rua+Carolino+de+Aquino,+445+A+(altos+-+F%C3%A1tima,+Fortaleza+-+CE,+60050-140/@-3.7508619,-38.5293842,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7c74889d6c15551:0xf939210e4790aaa1!2m2!1d-38.5268093!2d-3.7508673?entry=ttu" target="_blank">Ir ao Local</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Procure no Site" aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit">Procurar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- fim do menu -->
+
+     <!-- início do banner -->
+     <section id="bannerprincipal" class="row">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <!-- início do banner 01 -->
+                <div class="carousel-item active">
+                    <img src="imagens/banners/banner-camisas-cristas.webp" class="d-block w-100" alt="...">
+                </div>
+                <!-- fim do banner 01 -->
     
+    
+    
+    
+    
+    <!-- início da chamada do bootstrap - javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- fim da chamada do bootstrap - javascript -->
 </body>
 </html>
