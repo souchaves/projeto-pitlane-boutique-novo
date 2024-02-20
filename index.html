@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto de Loja Virtual PitLane Boutique</title>
+    <title>Pit Lane Boutique</title>
      <!-- início da chamada do bootstrap - css -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
      <!-- fim da chamada do bootstrap - css -->
@@ -34,9 +34,9 @@
                                 Categorias
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="produtos/miniaturas/">Miniaturas</a></li>
-                                <li><a class="dropdown-item" href="produtos/camisas/">Camisas</a></li>
-                                <li><a class="dropdown-item" href="produtos/bonés/">Bonés</a></li>
+                                <li><a class="dropdown-item" href="produtos/miniaturas">Miniaturas</a></li>
+                                <li><a class="dropdown-item" href="produtos/camisas">Camisas</a></li>
+                                <li><a class="dropdown-item" href="produtos/bonés">Bonés</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="produtos/camisas/todas-as-linhas">Todas as Linhas</a></li>
                             </ul>
@@ -60,10 +60,10 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="mailto:vendas@kadoshtshirts.com?subject=Vendas" target="_blank">E-Mail</a></li>
-                            <li><a class="dropdown-item" href="tel:+5585987654321" target="_blank">Ligação</a></li>
-                            <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=5585987654321&text=Ol%C3%A1,%20tudo%20bem?%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20produtos." target="_blank">Whatsapp</a></li>
+                            <li><a class="dropdown-item" href="tel:+558531013044" target="_blank">Ligação</a></li>
+                            <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=558531013044&text=Ol%C3%A1,%20tudo%20bem?%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20produtos." target="_blank">Whatsapp</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="https://www.google.com.br/maps/dir//iwtraining+treinamentos+-+Rua+Carolino+de+Aquino,+445+A+(altos+-+F%C3%A1tima,+Fortaleza+-+CE,+60050-140/@-3.7508619,-38.5293842,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7c74889d6c15551:0xf939210e4790aaa1!2m2!1d-38.5268093!2d-3.7508673?entry=ttu" target="_blank">Ir ao Local</a></li>
+                            <li><a class="dropdown-item" href="https://maps.app.goo.gl/bUXbmqoT7Kq4Cz8J7" target="_blank">Ir ao Local</a></li>
                         </ul>
                         </li>
                     </ul>
@@ -87,12 +87,413 @@
             <div class="carousel-inner">
                 <!-- início do banner 01 -->
                 <div class="carousel-item active">
-                    <img src="imagens/banners/banner-camisas-cristas.webp" class="d-block w-100" alt="...">
+                    <img src="imagens/banners/il_fullxfull.1794691175_mcnh.avif" class="d-block w-100" alt="...">
                 </div>
                 <!-- fim do banner 01 -->
-    
-    
-    
+
+                  <!-- início do banner 02 -->
+                  <div class="carousel-item">
+                    <img src="imagens/banners/Update_8.7_Banner.webp" class="d-block w-100" alt="...">
+                </div>
+                <!-- fim do banner 02 -->
+            </div>
+            <!-- início do botão voltar -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Voltar</span>
+            </button>
+            <!-- fim do botão voltar -->
+            
+            <!-- início do botão avançar -->
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Avançar</span>
+            </button>
+            <!-- fim do botão avançar -->
+        </div>
+    </section>
+    <!-- final do banner -->
+
+    <!-- início dos produtos -->
+    <section class="container">
+        <div class="row">
+            <h1 class="mt-5">Produtos em Destaque</h1>
+        </div>
+        <div class="row">
+            <!-- início do produto miniatura (unitário) -->
+            <div class="card col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 offset-md-0 col-lg-3 offset-lg-0">
+                <div class="card-body">
+                    <img src="produtos/miniaturas/miniatura-formula-1-ferrari-f1-75-16-charles-leclerc-2022-1-43-burago-18-36832_d.jpeg" class="card-img-top cover"  alt="...">
+                    <h5 class="mt-3">Miniaturas</h5>
+                    <h6>Miniatura Ferrari</h6>
+                    <p class="card-text">Miniatura de fórmula 1, modelo F1-75, da equipe Ferrari, #16, piloto Charles Leclerc, 2022.</p>
+                    <a href="produtos/miniaturas/ferrari.html">
+                        <button class="btn btn-warning col-5">+Detalhes</button>
+                    </a>
+                    <a data-bs-toggle="offcanvas" href="#Miniaturas" role="button" aria-controls="Miniaturas">
+                        <button class="btn btn-secondary col-6">
+                            Toda a Linha
+                            
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 offset-md-0 col-lg-3 offset-lg-0">
+                <div class="card-body">
+                    <img src="produtos/miniaturas/miniatura-formula-1-oracle-red-bull-racing-rb18-1-max-verstappen-2022-1-43-burago-18-38061_d.jpeg" class="card-img-top cover"  alt="...">
+                    <h5 class="mt-3">Miniaturas</h5>
+                    <h6>Miniatura RBR</h6>
+                    <p class="card-text">Miniatura de fórmula 1, modelo Oracle RB18, da equipe Red Bull Racing, #1, piloto Max Verstappen, 2022.</p>
+                    <a href="produtos/miniaturas/rbr.html">
+                        <button class="btn btn-warning col-5">+Detalhes</button>
+                    </a>
+                    <a data-bs-toggle="offcanvas" href="Miniaturas" role="button" aria-controls="Miniaturas">
+                        <button class="btn btn-secondary col-6">
+                            Toda a Linha
+                            
+                        </button>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- fim do produto miniatura (unitário) -->
+
+             <!-- início do produto camisa (unitário) -->
+             <div class="card col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 offset-md-0 col-lg-3 offset-lg-0">
+                <div class="card-body">
+                    <img src="produtos/camisas/camisa-circuitos.webp" class="card-img-top" alt="...">
+                    <h5 class="mt-3">Camisas</h5>
+                    <h6>Camiseta circuitos f1</h6>
+                    <p class="card-text">Você também é Acelerado? Então vem vestir todos os circuitos da F1!</p>
+                    <a href="produtos/camisas/linha-dev/camisa-fullstack-developer.html">
+                        <button class="btn btn-warning col-5">+Detalhes</button>
+                    </a>
+                    <a data-bs-toggle="offcanvas" href="#linhadev" role="button" aria-controls="linhadev">
+                        <button class="btn btn-secondary col-6">
+                            Toda a Linha
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <!-- fim do produto camisa (unitário) -->
+
+            <!-- início do produto boné (unitário) -->
+            <div class="card col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 offset-md-0 col-lg-3 offset-lg-0">
+                <div class="card-body">
+                    <img src="produtos/bonés/boné-mclaren-1.webp" class="card-img-top" alt="...">
+                    <h5 class="mt-3">Bonés</h5>
+                    <h6>Boné New Era 9Fifty</h6>
+                    <p class="card-text">Boné McLaren F1 Team Lando Norris Unissex.</p>
+                    <a href="produtos/camisas/linha-lendas/camisa-nascimento-das-lendas.html">
+                        <button class="btn btn-warning col-5">+Detalhes</button>
+                    </a>
+                    <a data-bs-toggle="offcanvas" href="#linhanascimentodaslendas" role="button" aria-controls="linhanascimentodaslendas">
+                        <button class="btn btn-secondary col-6">
+                            Toda a Linha
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <!-- fim do produto boné (unitário) -->
+
+        </div>
+    </section>
+    <!-- final dos produtos -->
+
+<!-- ********************************************************************************** -->
+
+ <!-- início da lateral Miniaturas -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="Miniaturas" aria-labelledby="Miniaturas">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title" id="Miniaturas">Miniaturas</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p style="margin-top: -20px;">Miniaturas de Fórmula 1: réplicas precisas em escala reduzida, capturando a velocidade e a paixão das corridas em detalhes impressionantes.</p>
+                
+                <!-- início miniatura Ferrari -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/miniaturas/miniatura-formula-1-ferrari-f1-75-16-charles-leclerc-2022-1-43-burago-18-36832_d.jpeg" class="card-img-top" alt="...">
+                        <h5 class="mt-3">Miniatura Scuderia Ferrari</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 130,00</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 99,90</span>
+                        </p>
+                        <a href="produtos/miniaturas/ferrari.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da miniatura Ferrari -->
+
+                <!-- início da miniatura RBR -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/miniaturas/miniatura-formula-1-oracle-red-bull-racing-rb18-1-max-verstappen-2022-1-43-burago-18-38061_d.jpeg" class="card-img-top" alt="...">
+                        <h5 class="mt-3">Miniatura RBR</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 130,00</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 99,90</span>
+                        </p>
+                        <a href="produtos/miniaturas/rbr.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da miniatura RBR -->
+
+                <!-- início da miniatura Alfa Romeo -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/miniaturas/miniatura-formula-1-mclaren-mcl36-australian-grand-prix-3-daniel-ricciardo-2022-1-43-burago-18-38063_c.jpg" class="card-img-top" alt="...">
+                        <h5 class="mt-3">Miniatura Alfa Romeo</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 130,00</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 99,90</span>
+                        </p>
+                        <a href="produtos/miniaturas/alfa-romeo.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da miniatura Alfa Romeo -->
+                
+            </div>
+        </div>
+        <!-- fim da lateral crossfit -->
+
+        <!-- início da lateral dev -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="linhadev" aria-labelledby="linhadev">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title" id="linhadev">Linha Dev</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p style="margin-top: -20px;">A linha DEV busca reforçar a comunidade de desenvolvimento e profissionais de TI.</p> 
+
+                <!-- início da camisa html, css, js e coffee -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/camisas/linha-dev/camisa-html-css-javascript-coffee.webp" class="card-img-top" alt="...">
+                        <h5 class="mt-3">FrontEnd & Coffee</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 89,90</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 69,90</span>
+                        </p>
+                        <a href="produtos/camisas/linha-dev/camisa-frontend-coffee.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da camisa  html, css, js e coffee -->
+
+                <!-- início da camisa fullstack -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/camisas/linha-dev/camisa-fullstack-developer.webp" class="card-img-top" alt="...">
+                        <h5 class="mt-3">Fullstack Developer</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 89,90</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 69,90</span>
+                        </p>
+                        <a href="produtos/camisas/linha-dev/camisa-fullstack-developer.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da camisa fullstack -->
+            </div>
+        </div>
+        <!-- fim da lateral dev -->
+
+        <!-- início da lateral nascimento das lendas -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="linhanascimentodaslendas" aria-labelledby="linhanascimentodaslendas">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title" id="linhanascimentodaslendas">Linha Nasce as Lendas</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p style="margin-top: -20px;">A linha Nascimento das Lendas busca ovacionar o ano e mês de nascimento de pessoas especiais.</p>
+                
+                <!-- início da camisa feminina -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/camisas/linha-lendas/camisa-nascimento-das-lendas-1983-feminina.webp" class="card-img-top" alt="...">
+                        <h5 class="mt-3">1983 Feminina</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 89,90</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 69,90</span>
+                        </p>
+                        <a href="produtos/camisas/linha-lendas/camisa-nascimento-das-lendas-1983-feminina.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da camisa feminina -->
+
+                <!-- início da camisa masculina -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/camisas/linha-lendas/camisa-nascimento-das-lendas-1983-masculina.webp" class="card-img-top" alt="...">
+                        <h5 class="mt-3">1983 Masculina</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 89,90</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 69,90</span>
+                        </p>
+                        <a href="produtos/camisas/linha-lendas/camisa-nascimento-das-lendas-1983-masculina.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da camisa masculina -->
+
+                <!-- início da camisa casal lendas -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/camisas/linha-lendas/camisa-nascimento-das-lendas.webp" class="card-img-top" alt="...">
+                        <h5 class="mt-3">Nascimento das Lendas</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 89,90</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 69,90</span>
+                        </p>
+                        <a href="produtos/camisas/linha-lendas/camisa-nascimento-das-lendas.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da camisa casal lendas -->
+            </div>
+        </div>
+        <!-- fim da lateral nascimento das lendas -->
+
+        <!-- início da lateral nascimento das lendas -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="linhaservus" aria-labelledby="linhaservus">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title" id="linhaservus">Linha Servus</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p style="margin-top: -20px;">A linha Servus busca, através de suas camisetas, fortalecer e propagar a comunidade e fé cristã.</p>
+
+                <!-- início da camisa Open Your Heart -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/camisas/linha-servus/camisa-open-your-heart.webp" class="card-img-top" alt="...">
+                        <h5 class="mt-3">Open Your Heart</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 89,90</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 69,90</span>
+                        </p>
+                        <a href="produtos/camisas/linha-servus/camisa-open-your-heart.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da camisa Open Your Heart -->
+                
+                <!-- início da camisa 70x7 -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/camisas/linha-servus/camisa-70x7.webp" class="card-img-top" alt="...">
+                        <h5 class="mt-3">70x7</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 89,90</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 69,90</span>
+                        </p>
+                        <a href="produtos/camisas/linha-servus/camisa-setenta-vezes-sete-70x7.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da camisa 70x7 -->
+
+                <!-- início da camisa Jovem Cristão -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/camisas/linha-servus/camisa-jovens-contrarios-ao-mundo.webp" class="card-img-top" alt="...">
+                        <h5 class="mt-3">Jovem Cristão</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 89,90</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 69,90</span>
+                        </p>
+                        <a href="produtos/camisas/linha-servus/camisa-jovens-cristaos-contrarios-ao-mundo.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da camisa Jovem Cristão -->
+
+                <!-- início da camisa Atos 2 Avivamento -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/camisas/linha-servus/camisa-atos2-avivamento.webp" class="card-img-top" alt="...">
+                        <h5 class="mt-3">Atos 2 Avivamento</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 89,90</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 69,90</span>
+                        </p>
+                        <a href="produtos/camisas/linha-servus/camisa-atos2-avivamento.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da camisa Atos 2 Avivamento -->
+
+                <!-- início da camisa Atos 2 Avivamento -->
+                <div class="card col-12">
+                    <div class="card-body">
+                        <img src="produtos/camisas/linha-servus/camisa-jesus-e-o-caminho.webp" class="card-img-top" alt="...">
+                        <h5 class="mt-3">Jesus é o Caminho</h5>
+                        <p class="flex flex-col justify-center flex-wrap gap-1 font-semibold">
+                            <span class="text-secondary">De:</span>
+                            <del>
+                              <span class="text-lg">R$ 89,90</span>
+                            </del>
+                            <span class="text-4xl font-medium mx-3"><span class="text-secondary">Por:</span> R$ 69,90</span>
+                        </p>
+                        <a href="produtos/camisas/linha-servus/camisa-jesus-e-o-caminho.html" class="btn btn-warning">+ Detalhes</a>
+                    </div>
+                </div>
+                <!-- fim da camisa Atos 2 Avivamento -->
+            </div>
+        </div>
+        <!-- fim da lateral nascimento das lendas -->
+
+<!-- ********************************************************************************** -->
+        
+        <!-- início do footer / rodapé -->
+        <div class="container-fluid bg-dark text-light fixo">
+            <div class="container">
+              <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+                  <p class="col-12 col-md-4 mb-0 text-light copyright">&copy; 2024 Pit Lane Boutique</p>
+                  <a href="/" class="col-12 col-md-4 d-flex align-items-center justify-content-center mb-0 mb-md-0 me-md-auto link-body-emphasis text-decoration-none mt-2 mt-md-0">
+                      <img src="imagens/identidade-da-marca/pitlane-logo-white-4.png">
+                  </a>
+                  <ul class="nav col-md-4 justify-content-end d-none d-lg-flex">
+                  <li class="nav-item"><a href="index.html" class="nav-link px-2 text-light">Início</a></li>
+                  <li class="nav-item"><a href="produtos.html" class="nav-link px-2 text-light">Produtos</a></li>
+                  <li class="nav-item"><a href="mailto:cra@iwtraining.com.br" class="nav-link px-2 text-light">E-Mail</a></li>
+                  <li class="nav-item"><a href="https://wa.me/558531013044" class="nav-link px-2 text-light">Whatsapp</a></li>
+                  <li class="nav-item"><a href="tel:+558531013044" class="nav-link px-2 text-light">Ligação</a></li>
+                  </ul>
+              </footer>
+            </div>
+          </div>
+          <!-- fim do footer / rodapé -->
     
     
     <!-- início da chamada do bootstrap - javascript -->
